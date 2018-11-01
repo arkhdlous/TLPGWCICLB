@@ -1,0 +1,90 @@
+/* Set global */
+*:focus {
+    outline: none;
+}
+.fs-1 { font-size: 10px; }
+.fs-2 { font-size: 12px; }
+.fs-3 { font-size: 14px; }
+.fs-4 { font-size: 16px; }
+.fs-5 { font-size: 18px; }
+
+/* Login page */
+body#login {
+	/*background-color: #54a0ff;*/
+	background-color: #54a0ff; /* For browsers that do not support gradients */
+    background-image: radial-gradient(#54a0ff, #2159a0); /* Standard syntax (must be last) */
+}
+
+#box-login {
+	padding-bottom: 30px;
+	margin-top: 120px;
+	background-color: white;
+	border: 1px solid #E8E8E8;
+	border-radius: 3px;
+	box-shadow: 0px 0px 3px 5px rgba(158, 193, 237, 0.2);
+}
+#box-login .img {
+	padding: 30px 10px;
+	text-align: center;
+}
+#box-login .img img {
+	border: 0.5px solid #D9D9D9;
+	border-radius: 50%;
+}
+#box-login .img h4 {
+	color: #555;
+}
+#box-login .form input {
+	border-radius: 0px;
+}
+#box-login .form label {
+	font-size: 15px;
+}
+#box-login .form button {
+	background-color: #54a0ff;
+	border: 1px solid #4490ed;
+	width: 200px;
+	border-radius: 20px;
+	color: white;
+	font-weight: bold;
+	transition: 0.4s;
+}
+#box-login .form button:hover {
+	background-color: #3e89e8;
+	box-shadow: 0px 0px 5px #B2B2B2;
+}
+#box-login a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+/* Dashoard AdminLTE */
+.main-header .navbar {
+	background-color: #54a0ff !important;
+}
+.main-header .logo {
+	background-color: #2771ce !important;
+}
+.main-sidebar {
+	background-color: #54a0ff !important;
+}
+.main-sidebar a {
+	color: #222 !important;
+	transition: .1s;
+}
+.sidebar-menu>li:hover>a, 
+.skin-blue .sidebar-menu>li.active>a, 
+.skin-blue .sidebar-menu>li.menu-open>a {
+	color: white !important;
+	background-color: #2771ce !important;
+}
+.sidebar-menu>li.header {
+	background-color: #66aaff !important;
+	color: black !important;
+}
+.sidebar-menu>li>.treeview-menu {
+	background-color: #66aaff !important;
+	color: #222 !important;
+}
